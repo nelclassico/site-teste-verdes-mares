@@ -1,0 +1,101 @@
+.navegacao{
+	padding: 5px;
+}
+.logo{ padding: 15px;}
+.logo img{
+	width: 150px;
+}
+.text-fixed{
+	top: 30%;
+	bottom: 30%;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 30px;
+}
+.modulos{
+	background-image: linear-gradient(to bottom, #000, #818181);
+}
+.content-section-heading h3{
+	color: #f55;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+.content-section-heading h2{
+	font-weight: 300;
+}
+.call{
+	padding: 10rem 0;
+	background-image: url(../img/call.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center;	
+}
+.call-content{position: relative;z-index: 1;}
+.overlay{
+	background-color: rgba(0, 0, 0, .6);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.rodape{
+	background-color: #500;
+	background-image: url(../img/world_map.png);
+	background-size:cover;
+	padding: 5rem; 
+}
+.carousel-caption{
+	top: 40%;
+	z-index: 1;
+}
+.slide{
+	position: relative;
+}
+.nav-link.active{
+	background-color: #500 !important;
+}
+.nav-item a{
+	color: #500;
+}
+.banner-sobre{
+	background-image: url(../img/índice.jpeg);
+	background-size: cover;
+	position: relative;
+	padding: 3rem;
+	height: 500px;
+}
+.text-banner{
+	position: relative;
+	z-index: 1;
+	margin-top: 30%;
+}
+#container-js{
+	background-color: #fc3;
+	width: 80%;
+	border-radius: 20px;
+}
+.ligthbox-aberto{
+	background-color: #333;
+	background-color: rgba(#333, 0.9);
+	cursor: pointer;
+	height: 100%;
+	overflow: scroll;
+	padding: 25px;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+.ligthbox-aberto:before{
+	background-color: #333;
+	background-color: rgba(#333, 0.9);
+	color: #eee;
+	content: "X";
+	padding: 5px 12px;
+	position: fixed;
+	text-transform: uppercase;
+}
+.no-scroll{
+	overflow: hidden;
+}
