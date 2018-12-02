@@ -1,0 +1,42 @@
+.not-img-principal{
+	background-image: url(../img/noticias/cubanos.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.esp-img-principal{
+	background-image: url(../img/noticias/ceara.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.not-img-secundaria{
+	background-image: url(../img/noticias/incendio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 245px;
+}
+.esp-img-secundaria{
+	background-image: url(../img/noticias/arsenal.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 245px;
+}
+.not-img-secundaria-2{
+	background-image: url(../img/noticias/beijo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 245px;
+	margin-top: 10px;
+}
+.esp-img-secundaria-2{
+	background-image: url(../img/noticias/alemanha.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 245px;
+	margin-top: 10px;
+}
+.title-noticias{
+	color: #fff;
+	padding: 25px;
+}

@@ -40,17 +40,17 @@ $(window).scroll(function() {
 	    var scroll = $(window).scrollTop();
     if (scroll >= 500) {
         //clearHeader, not clearheader - caps H
-        $(".header").addClass("clearHeader");
+        $(".menu").addClass("clearHeader");
     } else {
-    	$(".header").removeClass("clearHeader");
+    	$(".menu").removeClass("clearHeader");
     }
 }); //missing 
 
 
 
 $('.collapse').collapse();
-$('#menuprincipal').on('hide.bs.collapse', function () {
-	
+$('#menuprincipal').on('hide.bs.collapse', function () {	
   	toggle: false;
   	
 })
+
