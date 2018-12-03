@@ -1,5 +1,5 @@
 .not-img-principal{
-	background-image: url(../img/noticias/cubanos.jpg);
+	background-image: url(../img/ufc.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 500px;
@@ -17,7 +17,7 @@
 	height: 500px;
 }
 .not-img-secundaria{
-	background-image: url(../img/noticias/incendio.jpg);
+	background-image: url(../img/gmail.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 245px;
@@ -42,9 +42,13 @@
 	height: 245px;
 	margin-top: 10px;
 }
-.title-noticias{
+.title-noticias {
+    color: #fff;
+    padding: 25px;
+    background: #0000006b;
+}
+.title-noticias a{
 	color: #fff;
-	padding: 25px;
 }
 .img-circle{
 	border-radius: 50%;

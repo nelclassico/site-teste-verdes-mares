@@ -8,6 +8,10 @@ body{
 }
 /* configurações do header ********
 **********************************/
+.redes-sociais img{
+	width: 50px;
+	height: 50px;
+}
 .logo a {
     color: #fff;
 }
@@ -233,6 +237,7 @@ img.circle{
 /********************************/
 /*       Fade Bs-carousel       */
 /********************************/
+
 .img-indicator img{
 	width: 250px;
 	height: 180px;}
@@ -240,7 +245,7 @@ img.circle{
 	padding: 5px;
 }
 .indicadores{
-	bottom: -80px !important;
+	bottom: 0px !important;
 	margin: 2px;
 }
 .fade-carousel {
@@ -336,7 +341,7 @@ img.circle{
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-  height: 100vh;
+  height: 80vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
